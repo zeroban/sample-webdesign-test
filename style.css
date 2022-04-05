@@ -1,0 +1,151 @@
+/* This is a Comment section */
+/* David jaimes 9/18/2019 */
+
+
+
+header {
+	font-size: 60px;
+	color: white;
+	font-family: Serif;
+	text-align: center;
+}
+
+h1 {
+  color: white;
+  margin-left: 24px;
+  font-size: 40px;
+}
+
+h2 {
+	color: red;
+	margin-left: 24px;
+	font-size: 35px;
+}
+
+h3 {
+	color: yellow;
+	margin-left: 24px;
+	font-size: 35px;
+}
+
+P {
+	color: blue;
+}
+
+section {
+
+	text-align:center;
+	background-color: black;
+	margin-top: 90px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
+	
+	
+
+
+body {
+	background-color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+
+
+nav {
+  position: relative;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+  padding: 5px 0;
+  background: #585858;
+  z-index: 1;
+  text-align: right;
+  padding-right: 2%;
+  font-size: 22px;
+  text-emphasis-color: #dd0303;
+}
+
+
+
+nav:before {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-right: 10px solid #333;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  left: 0;
+}
+
+nav:after {
+  position: absolute;
+  content: '';
+  border-top: 10px solid #333;
+  border-left: 10px solid #333;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  top: 100%;
+  right: 0;
+}
+
+
+
+
+video {
+  width: 45%;
+  height: auto;
+}
+
+
+footer {
+	border-bottom-color: white;
+	text-decoration-color: white;
+	font-size: 12px;
+	border: 5px;
+	background-color: #585858;
+	color: white;
+	
+}
+
+
+
+.row {
+	display: flex;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+	color: white;
+	font-size: 18px;
+}
+
+p5 {
+	color: white;
+	font-size: 30px;
+}
+
+.info {
+	display: flex;
+}
+
+
+.column img {
+	width: 600px;
+}
+
+.map {
+	display: center;
+	color: white;
+	font-size: 18px;
+}
